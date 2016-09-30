@@ -1,6 +1,40 @@
-body, html, h1, h2, h3, h4, h5, a, img, input, div, span, i, u, em {
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: microsoft yahei;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+em {
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+p {
+  word-wrap: break-word;
 }
 
 .con {
@@ -12,9 +46,167 @@ body, html, h1, h2, h3, h4, h5, a, img, input, div, span, i, u, em {
   width: 100%;
   border-bottom: 1px solid #ddd;
   background: #f5f5f5;
+  font-size: 12px;
+  color: #666;
 }
 #heardTop .top {
+  overflow: hidden;
   height: 28px;
+}
+#heardTop .top .to {
+  float: left;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+#heardTop .top .toCity {
+  float: left;
+  background: url("../imgs/xqico (1).png") no-repeat 25px -27px;
+  margin-top: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 59px;
+}
+#heardTop .top .toCity span {
+  float: left;
+  width: 24px;
+  height: 20px;
+}
+#heardTop .top .toCity b {
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+#heardTop .top .toCity:hover {
+  background-position: 25px -43px;
+}
+#heardTop .top .tip {
+  margin-top: 8px;
+  padding-left: 19px;
+  float: left;
+  background: url("../imgs/smalllogo.png") no-repeat -7px -430px;
+}
+#heardTop .top .pj {
+  float: left;
+  margin-top: 8px;
+  margin-left: 11px;
+}
+#heardTop .top .pj a {
+  color: #ff6600;
+}
+#heardTop .top ul {
+  margin-left: 700px;
+  margin-top: 8px;
+  margin-height: 14px;
+}
+#heardTop .top ul li {
+  float: left;
+  margin-right: 14px;
+}
+#heardTop .top ul li b {
+  background: url("../imgs/smalllogo.png") no-repeat;
+  float: left;
+  height: 14px;
+}
+#heardTop .top ul li a {
+  color: #444444;
+  float: left;
+}
+#heardTop .top ul li a:hover {
+  color: #4dd2f3;
+}
+#heardTop .top ul .burCar {
+  width: 80px;
+  margin-right: 0px;
+}
+#heardTop .top ul .burCar b {
+  width: 20px;
+  background-position: -291px -45px;
+}
+#heardTop .top ul .me {
+  width: 84px;
+  background: url("../imgs/bg2.png") no-repeat 25px -159px;
+  margin-right: 0px;
+}
+#heardTop .top ul .me b {
+  width: 20px;
+  background-position: -313px -45px;
+}
+#heardTop .top ul .me em {
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+#heardTop .top ul .me:hover {
+  background-position: 25px -183px;
+}
+#heardTop .top ul .phone b {
+  width: 20px;
+  background-position: -336px -45px;
+}
+#heardTop .top ul .sugess a {
+  color: #ff0000;
+}
+
+.cityHiden {
+  width: 398px;
+  min-height: 74px;
+  border: 1px solid #ddd;
+  position: absolute;
+  left: 85px;
+}
+.cityHiden .cityHiden_top {
+  width: 370px;
+  height: 26px;
+  margin-left: 5px;
+  margin-top: 4px;
+  border-bottom: 1px solid #ddd;
+}
+.cityHiden .cityHiden_top ul li {
+  width: 70px;
+  height: 24px;
+  float: left;
+  background: #f6f6f6;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  text-align: center;
+  line-height: 24px;
+}
+.cityHiden .allCity {
+  width: 398px;
+  font-size: 12px;
+}
+.cityHiden .allCity div {
+  width: 100%;
+  height: 16px;
+  margin-top: 17px;
+  margin-left: 15px;
+  margin-bottom: 17px;
+}
+.cityHiden .allCity span {
+  color: #999;
+  width: 39px;
+  height: 12px;
+  display: block;
+  float: left;
+  border-right: 1px dashed #dddddd;
+  margin-right: 13px;
+}
+.cityHiden a {
+  float: left;
+  width: 48px;
+  color: #666;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #888;
+}
+.cityHiden a:hover {
+  background: #ff6600;
+}
+.cityHiden .chongqing {
+  background: #ff6600;
 }
 
 /*# sourceMappingURL=index.css.map */
